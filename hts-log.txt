@@ -1,0 +1,42 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 20 Jun 2024 12:40:40 at https://americanseries.netlify.app/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://americanseries.netlify.app/ -O1 "C:\My Web Sites\American Series" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+12:41:10	Error: 	"Not Found" (404) at link https://americanseries.netlify.app/colocar enlaces aqui/feed/ (from https://americanseries.netlify.app/)
+12:41:10	Error: 	"Not Found" (404) at link https://americanseries.netlify.app/colocar enlaces aqui/comments/feed/ (from https://americanseries.netlify.app/)
+12:41:15	Error: 	"Not Found" (404) at link https://americanseries.netlify.app/americanseries.com/wp-content/themes/dooplay/assets/css/front.crollbar.ccs (from https://americanseries.netlify.app/)
+12:41:16	Error: 	"Not Found" (404) at link https://americanseries.netlify.app/americanseries.com/wp-json/ (from https://americanseries.netlify.app/)
+12:41:16	Error: 	"Not Found" (404) at link https://americanseries.netlify.app/colocar enlaces aqui/xmlrpc.php?rsd (from https://americanseries.netlify.app/)
+12:41:16	Error: 	"Not Found" (404) at link https://americanseries.netlify.app/americanseries.com/wp-includes/wlwmanifest.xml (from https://americanseries.netlify.app/)
+12:41:16	Error: 	"Not Found" (404) at link https://americanseries.netlify.app/colocar enlaces aqui/ (from https://americanseries.netlify.app/)
+12:41:16	Error: 	"Not Found" (404) at link https://americanseries.netlify.app/colocar enlaces aqui/peliculas/bestia-2022-latino-dual-./ (from https://americanseries.netlify.app/)
+12:41:16	Error: 	"Not Found" (404) at link https://americanseries.netlify.app/colocar enlaces aqui/peliculas/una-loca-competencia-2007-latino-dual-./ (from https://americanseries.netlify.app/)
+12:41:16	Error: 	"Not Found" (404) at link https://americanseries.netlify.app/colocar enlaces aqui/peliculas/thor-amor-y-trueno-2022-latino-dual-./ (from https://americanseries.netlify.app/)
+12:41:16	Error: 	"Not Found" (404) at link https://americanseries.netlify.app/colocar enlaces aqui/peliculas/la-niebla-2007-latino-dual-./ (from https://americanseries.netlify.app/)
+12:41:16	Error: 	"Not Found" (404) at link https://americanseries.netlify.app/colocar enlaces aqui/peliculas/veneciafrenia-2022-latino-dual-./ (from https://americanseries.netlify.app/)
+12:41:16	Error: 	"Not Found" (404) at link https://americanseries.netlify.app/colocar enlaces aqui/peliculas/dbs-super-hero-2022-latino-dual-./ (from https://americanseries.netlify.app/)
+12:41:16	Error: 	"Not Found" (404) at link https://americanseries.netlify.app/colocar enlaces aqui/peliculas/nemesis-2022-latino-dual-./ (from https://americanseries.netlify.app/)
+12:41:16	Error: 	"Not Found" (404) at link https://americanseries.netlify.app/colocar enlaces aqui/peliculas/venganza-en-la-prision-2015-latino-dual-./ (from https://americanseries.netlify.app/)
+12:41:16	Error: 	"Not Found" (404) at link https://americanseries.netlify.app/colocar enlaces aqui/peliculas/pandorum-terror-en-el-espacio-2009-latino-dual-./ (from https://americanseries.netlify.app/)
+12:41:16	Error: 	"Not Found" (404) at link https://americanseries.netlify.app/colocar enlaces aqui/peliculas/fullmetal-alchemist-la-venganza-de-cicatriz-2022-latino-dual-./ (from https://americanseries.netlify.app/)
+12:41:16	Error: 	"Not Found" (404) at link https://americanseries.netlify.app/colocar enlaces aqui/peliculas/top-gun-pasion-y-gloria-1986-latino-dual-./ (from https://americanseries.netlify.app/)
+12:41:16	Error: 	"Not Found" (404) at link https://americanseries.netlify.app/colocar enlaces aqui/peliculas/el-exorcismo-de-dios-2022-latino-dual-./ (from https://americanseries.netlify.app/)
+12:41:16	Error: 	"Not Found" (404) at link https://americanseries.netlify.app/colocar enlaces aqui/peliculas/top-gun-maverick-2022-latino-dual-./ (from https://americanseries.netlify.app/)
+12:41:16	Error: 	"Not Found" (404) at link https://americanseries.netlify.app/colocar enlaces aqui/peliculas/dc-liga-de-supermascotas-2022-latino-dual-./ (from https://americanseries.netlify.app/)
+12:41:16	Error: 	"Not Found" (404) at link https://americanseries.netlify.app/colocar enlaces aqui/peliculas/parasitos-2019-latino-dual-./ (from https://americanseries.netlify.app/)
+12:41:16	Error: 	"Not Found" (404) at link https://americanseries.netlify.app/colocar enlaces aqui/peliculas/x-2022-latino-dual-./ (from https://americanseries.netlify.app/)
+12:41:16	Error: 	"Not Found" (404) at link https://americanseries.netlify.app/colocar enlaces aqui/peliculas/depredador-la-presa-2022-latino-dual-./ (from https://americanseries.netlify.app/)
+12:41:16	Error: 	"Not Found" (404) at link https://americanseries.netlify.app/colocar enlaces aqui/peliculas/todo-en-todas-partes-al-mismo-tiempo-2022-latino-dual-./ (from https://americanseries.netlify.app/)
+12:41:16	Error: 	"Not Found" (404) at link https://americanseries.netlify.app/colocar enlaces aqui/peliculas/lightyear-2022-latino-dual-./ (from https://americanseries.netlify.app/)
+12:41:16	Error: 	"Not Found" (404) at link https://americanseries.netlify.app/colocar enlaces aqui/peliculas/linterna-verde-teman-a-mi-poder-latino-dual-./ (from https://americanseries.netlify.app/)
+12:41:16	Error: 	"Not Found" (404) at link https://americanseries.netlify.app/colocar enlaces aqui/peliculas/red-2022-latino-dual-./ (from https://americanseries.netlify.app/)
+12:41:16	Error: 	"Not Found" (404) at link https://americanseries.netlify.app/colocar enlaces aqui/peliculas/minions-nace-un-villano-2022-latino-dual-./ (from https://americanseries.netlify.app/)
+12:41:16	Error: 	"Not Found" (404) at link https://americanseries.netlify.app/colocar enlaces aqui/peliculas/el-hombre-gris-2022-latino-dual-./ (from https://americanseries.netlify.app/)
+12:41:16	Error: 	"Not Found" (404) at link https://americanseries.netlify.app/colocar enlaces aqui/peliculas/maleficio-2022-latino-dual-ingles-./ (from https://americanseries.netlify.app/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 36 seconds : 108 links scanned, 76 files written (12858379 bytes overall) [12446284 bytes received at 345730 bytes/sec], 792606 bytes transferred using HTTP compression in 62 files, ratio 28%, 1.2 requests per connection
+(31 errors, 0 warnings, 0 messages)

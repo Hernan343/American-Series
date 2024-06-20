@@ -1,0 +1,1672 @@
+/*
+ Theme Name:   DooPlay Child
+ Theme URI:    https://doothemes.com/items/dooplay/
+ Description:  DooPlay Child Theme
+ Author:       DooThemes
+ Author URI:   https://doothemes.com/
+ Template:     dooplay
+ Version:      2.1.3
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         DooPlay child theme
+ Text Domain:  mtms
+*/
+
+header.main .hbox,
+#contenedor,
+footer.main .fbox {
+    max-width: 100% !important;
+}
+
+#contenedor {
+    max-width: 100%;
+    margin: 70px auto 0;
+}
+
+.float-element {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.audio {
+    position: absolute;
+    top: 35%;
+    right: 5px;
+    z-index: 0;
+}
+
+.audio .idioma {
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    width: 25px;
+    height: 35px;
+    opacity: .8
+}
+
+.audioEp {
+    position: absolute;
+    top: 5%;
+    right: 5px;
+    z-index: 0;
+}
+
+.audioEp .idiomaEp {
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    width: 35px;
+    height: 25px;
+    opacity: .8
+}
+
+.idiomaEp {
+    float: right;
+}
+
+.module .content header h2 {
+    font-size: 25px;
+}
+
+
+/*aca empieza todo*/
+
+.slider article.item .image {
+    border-radius: 10px;
+}
+
+span.item_type {
+    border-radius: 10px 0 0 0;
+}
+
+
+/*
+ * Version 4
+ * Desarrollado por xonastore.com
+ * Fecha de Modificacion 17/05/2020
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ */
+
+
+/*++++++++++++++++++++++++++++++++++*/
+
+
+/* INICIO */
+
+
+/*++++++++++++++++++++++++++++++++++*/
+
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+    background: #000;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 10px;
+}
+
+
+/*+++++++++++++++++++++++++++++++++++++*/
+
+
+/* PANTALLA COMPLETA */
+
+#contenedor {
+    max-width: 100% !important;
+    margin: 70px auto 0;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+
+/*+++++++++++++++++++++++++++++++++++++*/
+
+
+/* CABECERA */
+
+
+/*0.1 Ancho Completo*/
+
+header.main .hbox {
+    max-width: 100% !important;
+    margin: 0 10px;
+    /*margen a los costados*/
+}
+
+
+/*0.2 Color de la Cabecera*/
+
+header.main {
+    background-color: #000;
+    /*personalizable*/
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0;
+}
+
+
+/*0.3 Color Fondo del Logo*/
+
+header.main .hbox .logo {
+    background: transparent;
+    /*personalizable*/
+}
+
+
+/*--------------------*/
+
+
+/*Menu*/
+
+
+/*0.1 Separacion Letras del Menu*/
+
+.head-main-nav ul.main-header li a {
+    font-size: 14px;
+    padding: 28px 6px;
+    text-transform: uppercase;
+}
+
+
+/*0.2 SubMenu*/
+
+.head-main-nav ul.main-header li ul.sub-menu li a:hover {
+    background: #fff;
+    /*personalizable*/
+}
+
+
+/*--------------------*/
+
+
+/*Buscador*/
+
+
+/*0.1 Color de Fondo del Buscador*/
+
+header.main .hbox .search form {
+    background: #1a1a1a;
+    /*personalizable*/
+}
+
+
+/*0.2 Color de la Lupa */
+
+.icon-search2:before {
+    color: #7b7b7b;
+    /*personalizable*/
+}
+
+
+/*0.3 Color de "Buscar..."*/
+
+input#s::placeholder {
+    color: #7b7b7b;
+    /*personalizable*/
+    opacity: 1;
+    /* Firefox */
+}
+
+
+/*0.4 Color de Texto en el buscador*/
+
+header.main .hbox .search form input[type=text] {
+    color: #7b7b7b;
+    /*personalizable*/
+    border-radius: 5px;
+}
+
+
+/*0.5 Color al hacer Click*/
+
+input#s:focus {
+    background: white;
+    /*personalizable*/
+    border-radius: 5px;
+    color: #000;
+    /*personalizable*/
+    /*efectos transicion*/
+    -webkit-transition: all .2s cubic-bezier(.37, .15, .32, .94);
+    -moz-transition: all .2s cubic-bezier(.37, .15, .32, .94);
+    -ms-transition: all .2s cubic-bezier(.37, .15, .32, .94);
+    transition: all .2s cubic-bezier(.37, .15, .32, .94);
+    list-style-type: none;
+    font-weight: 500;
+}
+
+
+/*0.6 Resultados de Busqueda*/
+
+
+/* Acomodar Busacador */
+
+.live-search {
+    float: right;
+    top: 70px;
+    width: 350px;
+    opacity: 0.98;
+    position: absolute;
+    right: 219px;
+}
+
+.live-search ul li {
+    border-bottom: solid 1px #7b7b7b;
+    /*personalizable*/
+    margin-bottom: 4px;
+    background: #fff;
+    /*personalizable*/
+    color: #000;
+    border-radius: 5px 0px 0px 5px;
+    padding: 6px 6px;
+}
+
+
+/*Icono*/
+
+.live-search ul li .poster {
+    float: left;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+
+/*Fondo del Icono*/
+
+.live-search ul {
+    background: none;
+    box-shadow: 0 10px 20px -3px rgba(0, 0, 0, 0)
+}
+
+.live-search ul li {
+    border-left: 5px solid transparent;
+}
+
+.live-search ul li:hover {
+    opacity: 1;
+    border-left: 5px solid red;
+    /*personalizable*/
+    border-radius: 5px 0px 0px 5px;
+    background: white;
+}
+
+
+/*Resultado de Busquedas*/
+
+.live-search ul li .title {
+    color: #000;
+}
+
+.live-search ul li .imdb {
+    color: #000;
+}
+
+.live-search ul li .imdb span.icon-star {
+    color: red;
+}
+
+.live-search ul li .title:hover {
+    color: #000;
+}
+
+
+/*--------------------*/
+
+
+/*Login*/
+
+
+/*0.1 Logo Cerrar Sesion*/
+
+.dtuser .gravatar img {
+    border-radius: 100%;
+}
+
+
+/*0.2 Color de Fondo Boton Cerrar Sesion*/
+
+#dooplay_signout {
+    background: white;
+    /*personalizable*/
+    margin-left: 18px;
+    border-radius: 5px;
+}
+
+
+/*+++++++++++++++++++++++++++++++++++++*/
+
+
+/* CUERPO DE LA PAGINA */
+
+
+/*0.1 Color de Fondo*/
+
+.module {
+    background: transparent;
+    /*personalizable*/
+    border-bottom: solid 1px rgba(255, 255, 255, 0.07);
+    border-top: 0px;
+}
+
+html {
+    background: #000;
+    /*personalizable*/
+}
+
+
+/*0.2 Sacar linea Divisoria*/
+
+.module .content .items {
+    margin-bottom: 20px;
+    border-bottom: 0px solid;
+}
+
+
+/*0.3 Sacar Margenes de los Costados*/
+
+.full_width_layout {
+    padding: 10px 0px!important;
+}
+
+
+/*+++++++++++++++++++++++++++++++++++++*/
+
+
+/* GLOSARIO */
+
+
+/*0.1 Cambio de estilo al glosario*/
+
+.letter_home ul.glossary li a {
+    color: #fff;
+    /*personalizable*/
+    background: #181818;
+    /*personalizable*/
+    padding: 10px 0;
+    border-radius: 5px;
+    border: 0px;
+}
+
+
+/*0.1 Hover*/
+
+.letter_home ul.glossary li a:hover {
+    padding: 10px 0;
+    border-radius: 5px;
+    border: 0;
+}
+
+.letter_home ul.glossary li a.lglossary:hover {
+    background: white;
+    /*personalizable*/
+}
+
+
+/*0.2 Color de Fondo*/
+
+.letter_home ul.glossary li {
+    padding: 2px;
+    background: transparent;
+    /*personalizable*/
+}
+
+.letter_home {
+    background: transparent;
+    margin-top: 15px;
+}
+
+
+/*0.3 Fondo Activo*/
+
+.letter_home ul.glossary li a:hover,
+.letter_home ul.glossary li a.active {
+    font-weight: 600;
+    border-bottom: solid 0px;
+    padding-bottom: 10px;
+    background: #fff;
+    /*personalizable*/
+}
+
+
+/*0.4 Resultados del Glosario*/
+
+
+/*Rating*/
+
+.items_glossary .items .item .poster .rating {
+    background: #000;
+    /*personalizable*/
+    color: #fff;
+    /*personalizable*/
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 14px;
+    float: right;
+    margin-right: 0px;
+    top: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: max-content;
+    height: 24px;
+    height: -webkit-fit-content;
+    border-radius: 5px 0px 0px 5px;
+}
+
+
+/*Icono Estrella*/
+
+.items_glossary .items .item .poster .rating i {
+    color: red;
+    /*personalizable*/
+}
+
+
+/* Acomodar Margenes a la Fecha*/
+
+.items_glossary .items .item .data span {
+    float: left;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 5px;
+    margin-bottom: 22px;
+}
+
+
+/* Titulo del Resultado*/
+
+.items_glossary .items .item .data h3 {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    width: 90%;
+    float: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 5px;
+}
+
+
+/* Degrade del Resultado */
+
+.items_glossary .items .item .data {
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+    margin-top: 5px;
+    bottom: 11px;
+}
+
+
+/* Color de Fondo del Glosario */
+
+.items_glossary .items {
+    background: #000;
+    /*personalizable*/
+}
+
+
+/* Posters del Glosario*/
+
+.items_glossary .items .item .poster img {
+    width: 100%;
+    height: 100%;
+    margin-top: -148%;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.items_glossary .items .item .poster {
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding-top: 148%;
+}
+
+
+/*+++++++++++++++++++++++++++++++++++++*/
+
+
+/* Slider Principal */
+
+
+/*0.1 Acomodando tags*/
+
+span.item_type {
+    width: max-content;
+    height: -webkit-fit-content;
+    height: 24px;
+    top: 15px;
+    left: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px 10px;
+    margin: 0;
+    border-radius: 0px 5px 5px 0px;
+}
+
+
+/*0.2 Zoon a los Posters*/
+
+.slider article.item .image img:hover {
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.035);
+}
+
+
+/*0.3 Degrade del slider*/
+
+.slider article.item .image .data {
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 1) 70%);
+    /*personalizable*/
+}
+
+
+/*0.4 Bordes Superiores Redondeados*/
+
+.slider article.item .image {
+    border-radius: 5px 5px 0 0;
+}
+
+
+/*0.5 Selector de Galerias*/
+
+.owl-theme .owl-controls .owl-page span {
+    margin: 2px;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+    opacity: 1;
+    background: #fff;
+    height: 8px;
+}
+
+
+/*0.6 Margin Bootom*/
+
+.slider {
+    margin-bottom: 0px;
+}
+
+
+/*+++++++++++++++++++++++++++++++++++++*/
+
+
+/* DESTACADOS */
+
+
+/*0.1 Acomodando tags*/
+
+.featu {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    font-size: 14px;
+    letter-spacing: .5px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    line-height: 14px;
+    border-radius: 0px 5px 5px 0px;
+    font-weight: bold;
+}
+
+
+/*0.2 Rating*/
+
+.module .content .items .item .poster .rating {
+    background: #000;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 14px;
+    float: right;
+    margin-right: 0px;
+    top: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: max-content;
+    height: 24px;
+    height: -webkit-fit-content;
+    border-radius: 5px 0px 0px 5px;
+}
+
+
+/*color de la estrella*/
+
+.module .content .items .item .poster .rating span {
+    color: red;
+}
+
+
+/*+++++++++++++++++++++++++++++++++++++*/
+
+
+/* PELICULAS Y SERIES */
+
+
+/*0.0 Altura de los Poster*/
+
+.module .content .items .item .poster img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+/*0.1 Calidad*/
+
+.mepo span.quality {
+    padding: 5px 10px;
+    font-size: 14px;
+    float: left;
+    line-height: 14px;
+    margin-right: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: max-content;
+    height: fit-content;
+    border-radius: 0px 5px 5px 0px;
+}
+
+span.quality {
+    color: #fff;
+    /*personalizable*/
+    background: #000;
+    /*personalizable*/
+}
+
+.mepo {
+    position: absolute;
+    top: 15px;
+    left: 0px;
+}
+
+
+/*0.2 Posicion Absoluta Descripcion*/
+
+.module .content .items .item .data {
+    float: left;
+    bottom: 0px;
+    position: absolute;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 1) 50%);
+}
+
+
+/*0.4 Dejar Espacio Izquiero en logo destacado*/
+
+.module .content .items .item .dfeatur .mark {
+    padding: 0 10px;
+}
+
+
+/*0.5 Dejar Espacio Izquiero en Fecha*/
+
+.module .content .items .item .data span {
+    color: rgba(255, 255, 255, 0.5);
+    padding-left: 10px;
+}
+
+
+/*0.6 Dejar Espacio Izquiero en Titulo*/
+
+.module .content .items .item .data h3,
+.module .content .items .item .data h3 a {
+    padding-left: 5px;
+}
+
+
+/*0.7 Calidad Capitulos*/
+
+article.episodes span.quality {
+    padding: 5px 10px;
+    font-size: 14px;
+    float: left;
+    line-height: 14px;
+    margin-right: 5px;
+    top: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: max-content;
+    height: fit-content;
+    border-radius: 0px 5px 5px 0px;
+}
+
+
+/*+++++++++++++++++++++++++++++++++++++*/
+
+
+/* FOOTER */
+
+
+/*0.1 Color de Fondo y Sacar Margin Bottom*/
+
+footer.main {
+    margin-bottom: 0px;
+    background: #000;
+}
+
+
+/*0.2 Tamaño de la Caja Contenedora*/
+
+footer.main .fbox {
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 13px;
+}
+
+
+/*0.3 Color de Fondo del Footer*/
+
+footer.main .fcmpbox {
+    background: #000;
+}
+
+
+/*0.4 Menu Footer*/
+
+footer.main .fbox .fmenu {
+    float: right;
+    padding: 15px 0;
+}
+
+footer.main .fbox .fmenu ul li {
+    padding: 2px 8px;
+    margin-top: 10px;
+}
+
+
+/*0.5 Footer Boton Subir*/
+
+span.top-page a {
+    background: #fff;
+    color: #000;
+    margin-right: 100px;
+}
+
+
+/*++++++++++++++++++++++++++++++++++*/
+
+
+/* INICIO */
+
+
+/*++++++++++++++++++++++++++++++++++*/
+
+
+/*
+ * Version 3.0
+ * Desarrollado por xonastore.com
+ * Fecha de Modificacion 29/04/2020
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ */
+
+
+/*++++++++++++++++++++++++++++++++++*/
+
+
+/* PELICULAS Y SERIES */
+
+
+/*++++++++++++++++++++++++++++++++++*/
+
+
+/* EXTRUCTURA */
+
+
+/*0.1 Fondo Con Imagen*/
+
+#single {
+    background: rgba(0, 0, 0, .90);
+}
+
+
+/* REPRODUCTOR */
+
+
+/*0.1 Bordes del Reproductor*/
+
+.pframe {
+    border-radius: 20px;
+    border: 2px solid #ff2828;
+    /*personalizable*/
+    /*opcional: Neon en los bordes
+    box-shadow: 0px 0px 25px #ff2828;
+    */
+}
+
+
+/*0.2 Transparencia del Reproductor*/
+
+.dooplay_player .play {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+
+/*--------------------*/
+
+
+/* FUENTES DE VIDEO */
+
+
+/*0.1 Poner uno al lado de otro*/
+
+@media (min-width:1250px) {
+    .dooplay_player .options ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 1rem;
+    }
+}
+
+
+/*0.2 Estilos*/
+
+
+/*Servidor off*/
+
+.dooplay_player .options ul li {
+    border-bottom: 0;
+    background: #101010;
+    /*personalizable*/
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    height: 50px;
+}
+
+
+/*Servidor on*/
+
+.dooplay_player .options ul li.on,
+.dooplay_player .options ul li.on:hover {
+    background: #303030;
+    /*personalizable*/
+    border-radius: 5px;
+}
+
+
+/*Icono color*/
+
+.icon-play3:before {
+    color: #ff2828;
+    /*personalizable*/
+}
+
+
+/*0.3 Sacar Nombre del Servidor*/
+
+.dooplay_player .options ul li span.server {
+    display: none;
+}
+
+
+/*0.4 Texto en Mayusculas*/
+
+.dooplay_player .options ul li span.title {
+    text-transform: uppercase;
+}
+
+
+/*--------------------*/
+
+
+/* DATOS Y PUNTUACION */
+
+
+/*0.1 Poster*/
+
+.sheader .poster img {
+    border-radius: 10px;
+    border: 2px solid #ff2828;
+    /*personalizable*/
+}
+
+
+/*0.2 Like y Visto*/
+
+.tooltip .tooltiptext {
+    background-color: #ff2828;
+    /*personalizable*/
+    color: #fff;
+}
+
+
+/*hover*/
+
+.tooltiptext.tooltip-right::after {
+    border-color: transparent #ff2828 transparent transparent;
+    /*personalizable*/
+}
+
+
+/*0.3 Info - Reparto - Reporte - Trailer*/
+
+
+/*Info*/
+
+
+/*Galeria de imagenes*/
+
+#dt_galery .g-item,
+#dt_galery_ep .g-item {
+    border-radius: 10px;
+    /*parte1*/
+}
+
+.galeria .g-item img {
+    height: 100%;
+    /*no tocar*/
+    border-radius: 10px;
+    /*parte2*/
+}
+
+
+/*Reparto*/
+
+
+/*Personas*/
+
+.person .img {
+    border-radius: 5px;
+}
+
+
+/* TITULOS SIMILARES */
+
+
+/*0.1 Border Redondos*/
+
+.srelacionados article img {
+    border-radius: 10px;
+    border: 2px solid;
+}
+
+
+/* Inicio > Pelicula o Serie > Video */
+
+.dt-breadcrumb {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+
+/*Trailer*/
+
+
+/*0.1 Border Radius*/
+
+.videobox .embed {
+    border-radius: 15px;
+    border: 3px solid #ff2828;
+    /*personalizable*/
+}
+
+
+/*+++++++++++++++++++++++++++++++++++++*/
+
+
+/* SERIES */
+
+
+/*Temporadas y Episodios*/
+
+
+/*0.1 Titulo y Titulos Semilares*/
+
+.sbox h1,
+.sbox h2 {
+    text-transform: uppercase;
+}
+
+
+/*0.2 Selector de Temporadas*/
+
+span.se-t.se-o {
+    border-radius: 5px;
+}
+
+#seasons .se-c .se-q span.se-t {
+    border: 1px solid #ff2828;
+    /*personalizable*/
+    border-radius: 5px;
+}
+
+
+/*0.3 Poster de Episodios*/
+
+#seasons .se-c .se-a ul.episodios li .imagen img {
+    border-radius: 5px;
+}
+
+
+/* EPISODIOS */
+
+
+/* Botones de Siguiente */
+
+
+/*0.1 Iconos*/
+
+.pag_episodes .item a i {
+    color: #ff2828;
+}
+
+
+/*0.2*/
+
+
+/*Margenes de los Costados*/
+
+.pag_episodes .item {
+    padding: 0px 5px;
+}
+
+
+/*Border Radius*/
+
+.pag_episodes .item a {
+    border: 1px solid #ff2828;
+    /*personalizable*/
+    border-radius: 5px;
+}
+
+
+/*Margen Arriba*/
+
+.pag_episodes {
+    margin-top: 5px;
+}
+
+
+/*++++++++++++++++++++++++++++++++++*/
+
+
+/* PELICULAS Y SERIES */
+
+
+/*++++++++++++++++++++++++++++++++++*/
+
+
+/*
+ * Version 3.0
+ * Desarrollado por xonastore.com
+ * Fecha de Modificacion 29/04/2020
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ */
+
+
+/*++++++++++++++++++++++++++++++++++*/
+
+
+/* WIDGETS */
+
+
+/*++++++++++++++++++++++++++++++++++*/
+
+
+/* Buscar */
+
+
+/*0.1 Border Radius*/
+
+form.search-form {
+    border-radius: 5px;
+}
+
+
+/* Calendario */
+
+
+/*0.1 Border Radius*/
+
+.calendar_wrap table caption {
+    border-radius: 5px 5px 0 0;
+}
+
+
+/* Relacionados */
+
+
+/*Opcion 1*/
+
+.w_item_a .image {
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+
+/*Opcion 2*/
+
+.w_item_b .data {
+    border-radius: 0px 10px 10px 0;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+}
+
+.w_item_b .image {
+    height: 91px;
+    border-radius: 10px 0px 0px 10px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+}
+
+
+/*Opcion 3*/
+
+.w_item_c .rating {
+    border: 1px solid #ff2828;
+    /*personalizable*/
+}
+
+
+/* Lista de Años */
+
+.dt_mainmeta nav.releases ul li a {
+    background: rgba(0, 0, 0, 0.3);
+    color: rgba(255, 255, 255, 0.5);
+    border: 1px solid #ff2828;
+    /*personalizable*/
+    border-radius: 5px;
+}
+
+
+/* Redes Sociales */
+
+.widget-social ul.social-links li.dtl {
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.widget-social ul.social-links li.dtl a.icls {
+    border-radius: 5px;
+}
+
+
+/* Imagenes */
+
+
+/*0.1 Foto Chica*/
+
+img.image.wp-image-770.attachment-thumbnail.size-thumbnail {
+    border-radius: 10px;
+    border: 2px solid #ff2828;
+    /*personalizable*/
+}
+
+
+/*0.2 Foto Mediana*/
+
+img.image.wp-image-770.attachment-medium.size-medium {
+    border-radius: 10px;
+    border: 2px solid #ff2828;
+    /*personalizable*/
+}
+
+
+/*0.3 Foto Grande*/
+
+img.image.wp-image-770.attachment-large.size-large {
+    border-radius: 10px;
+    border: 2px solid #ff2828;
+    /*personalizable*/
+}
+
+
+/*0.4 Foto Full*/
+
+img.image.wp-image-770.attachment-full.size-full {
+    border-radius: 10px;
+    border: 2px solid #ff2828;
+    /*personalizable*/
+}
+
+
+/*++++++++++++++++++++++++++++++++++*/
+
+
+/* WIDGETS */
+
+
+/*++++++++++++++++++++++++++++++++++*/
+
+
+/*
+ * Version 3.0
+ * Desarrollado por xonastore.com
+ * Fecha de Modificacion 29/04/2020
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ */
+
+
+/*++++++++++++++++++++++++++++++++++*/
+
+
+/* MI CUENTA */
+
+
+/*++++++++++++++++++++++++++++++++++*/
+
+
+/*Extructura*/
+
+
+/*0.1 Width del 80%*/
+
+.page_user {
+    padding: 20px;
+    margin: 0 auto;
+    float: none;
+    width: 80%;
+    background: transparent;
+}
+
+
+/*0.2 Fondo de Cabecera*/
+
+.page_user header.user {
+    border-radius: 10px 10px 0 0;
+    background: #101010;
+    /*personalizable*/
+}
+
+
+/*0.3 Fondo de Favoritos > Vistos > Enlaces > Ajustes*/
+
+.page_user nav.user {
+    background: #101010;
+    /*personalizable*/
+}
+
+
+/*0.4 Fondo de Mis Favoritos*/
+
+.page_user .content {
+    background: #101010;
+    /*personalizable*/
+    border-radius: 0 0 10px 10px;
+}
+
+
+/*Favoritos y Vistos*/
+
+
+/*0.1 Poster*/
+
+article.simple .poster img {
+    height: 100%;
+    margin-top: -140%;
+    position: relative;
+    border-radius: 5px;
+}
+
+article.simple .poster .profile_control span a {
+    background: #fff;
+    color: #ff2828;
+    /*personalizable*/
+}
+
+article.simple .poster .profile_control span a:hover {
+    background: #ff2828;
+    /*personalizable*/
+    color: #fff;
+}
+
+
+/*Detalles*/
+
+
+/*0.1 Icono del Usuario*/
+
+.page_user header.user .box .gravatar img {
+    border-radius: 5px;
+}
+
+
+/*0.2 >Enlaces >Enlaces Compartidos*/
+
+table.account_links thead {
+    background: #303030;
+    /*personalizable*/
+}
+
+
+/*Cargar Mas*/
+
+.page_user .content .paged a.load_more {
+    background: #303030;
+    /*personalizable*/
+    margin-bottom: 15px;
+}
+
+
+/*Ajustes*/
+
+
+/*0.1 >General >Sobre mi >Contraseña*/
+
+.user_edit_control ul li a {
+    padding: 10px 0;
+}
+
+
+/*0.2 Color de Texto*/
+
+.user_edit_control ul li a {
+    color: rgba(255, 255, 255, 0.5);
+    /*personalizable*/
+}
+
+
+/*++++++++++++++++++++++++++++++++++*/
+
+
+/* MI CUENTA */
+
+
+/*++++++++++++++++++++++++++++++++++*/
+
+
+/* Version 2.0.1
+* Desarrollado por xonastore.com
+* Fecha de Inicio 29/04/2020
+*
+*
+*
+*
+*
+*
+*
+*/
+
+
+/*++++++++++++++++++++++++++++++++++*/
+
+
+/* MOVIL */
+
+
+/*++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width: 1200px) {
+    /* CABECERA */
+    /*0.1 Fondo de la Cabecera*/
+    header.responsive {
+        background-color: #000;
+        /*personalizable*/
+    }
+    /*0.2 Menú - Width*/
+    .menuresp .menu {
+        position: fixed;
+        height: 100%;
+        width: 80%;
+    }
+    /* 0.2 Menu - Mover a la Derecha */
+    /* NO MODIFICAR PARA EVITAR ERRORES */
+    header.responsive .nav {
+        float: right;
+    }
+    /*0.3 Menú - Cerrar Sesión*/
+    a#dooplay_signout {
+        color: #ff2828;
+        /*personalizable*/
+    }
+    /* 0.4 Sacar Border Menu */
+    header.responsive .nav {
+        border-right: solid 0px;
+    }
+    /* 0.5 Sacar Border Buscador */
+    header.responsive .search {
+        border-left: solid 0px;
+    }
+    /* 0.6 Sacar Margin */
+    #contenedor {
+        margin: 50px auto 0;
+    }
+    /* BUSCADOR */
+    /*buscador color de fondo*/
+    form.form-resp-ab input[type="text"] {
+        color: #000;
+        background: #fff;
+        margin: 5px 0px;
+        margin-left: 0px;
+        position: absolute;
+        z-index: 3;
+        border-radius: 10px;
+        float: left;
+        border: solid 0px #000;
+        overflow: hidden;
+        width: 90%;
+        height: 50px;
+        margin-left: 5px;
+    }
+    form.form-resp-ab button[type="submit"] {
+        border: 0;
+        background: #fff;
+        right: 5px;
+        position: absolute;
+        padding: 0px 0px;
+        cursor: pointer;
+        z-index: 5;
+        top: 5px;
+        height: 50px;
+        width: 60px;
+        border-radius: 0px 5px 5px 0px;
+    }
+    /*color de lupa*/
+    form.form-resp-ab button[type="submit"] span {
+        font-size: 24px;
+        color: #000;
+        top: 14px;
+        z-index: 6;
+        position: absolute;
+        right: 18px;
+    }
+    /*resultados de busqueda*/
+    .search_responsive .live-search {
+        margin-top: 10px;
+        float: left;
+        position: absolute;
+        z-index: 104;
+        width: 100%;
+        left: 0px;
+        padding: 5px;
+    }
+    .live-search ul li {
+        border-bottom: solid 1px #ff2828;
+        /*personalizable*/
+        margin-bottom: 4px;
+        background: #fff;
+        color: #000;
+        border-radius: 5px;
+        padding: 6px 6px;
+    }
+    /*cargando*/
+    .search_responsive .search-button span.loading {
+        color: #000;
+    }
+    /* SLIDER */
+    /*0.1 Selector - Width*/
+    .owl-theme .owl-controls .owl-page span {
+        width: 20px;
+    }
+    /* 0.2 Sacar Margin Top */
+    .letter_home {
+        margin-top: 0px;
+    }
+    /* ICONO DE SLIDERS */
+    /* 0.1 Border Radios */
+    .nav_items_module a.btn {
+        border: solid 1px #ff2828;
+        padding: 0 8px;
+        border-radius: 100px;
+    }
+    /* 0.2 Color Iconos Play */
+    .icon-caret-left:before {
+        color: #fff;
+    }
+    .icon-caret-right:before {
+        color: #fff;
+    }
+    /* POSTERS */
+    /*0.1 Acomodar Degrade*/
+    .module .content .items .item .data {
+        float: left;
+        width: 100%;
+        bottom: -15px;
+        position: absolute;
+        z-index: 1;
+        padding: 5px 10px 5px 0px;
+        background-image: linear-gradient( rgba(255, 255, 255, 0), rgba(0, 0, 0, 1) 70%);
+        /*personalizable*/
+    }
+    /* 0.1.1 Sacar Icono de Destacados */
+    .icon-local_play:before {
+        content: "\e553";
+        display: none;
+    }
+    /*0.2 Calidad Peliculas*/
+    .mepo span.quality {
+        padding: 5px 2px;
+        font-size: 10px;
+        float: left;
+        line-height: 8px;
+        margin-right: 5px;
+        text-transform: uppercase;
+        font-weight: bold;
+        width: max-content;
+        height: fit-content;
+        border-radius: 0px 5px 5px 0px;
+    }
+    /* 0.3 Calidad Episodios */
+    article.episodes span.quality {
+        padding: 5px 10px;
+        font-size: 10px;
+        float: left;
+        line-height: 8px;
+        margin-right: 5px;
+        top: 10px;
+        text-transform: uppercase;
+        font-weight: bold;
+        width: max-content;
+        height: fit-content;
+        border-radius: 0px 5px 5px 0px;
+    }
+    /*0.3 DESTACADO*/
+    .featu {
+        padding: 5px 2px;
+        font-size: 10px;
+        float: left;
+        line-height: 8px;
+        margin-right: 5px;
+        text-transform: uppercase;
+        font-weight: bold;
+        width: max-content;
+        height: fit-content;
+        border-radius: 0px 5px 5px 0px;
+    }
+    /* 0.4 Puntuacion */
+    .module .content .items .item .poster .rating {
+        background: #000;
+        color: #fff;
+        padding: 0px 2px;
+        font-size: 10px;
+        line-height: 18px;
+        float: right;
+        margin-right: 0px;
+        top: 15px;
+        text-transform: uppercase;
+        font-weight: bold;
+        width: max-content;
+        height: 18px;
+        height: -webkit-fit-content;
+        border-radius: 5px 0px 0px 5px;
+    }
+    /* PELIUCLAS Y SERIES */
+    /* 0.1 Sacar Espaciado */
+    div#single {
+        margin-top: -20px;
+    }
+    /* 0.2 Margin Reproductor */
+    .dooplay_player .play .pframe {
+        margin: 10px;
+    }
+    /* 0.3 Margin Top 5px */
+    #single .content {
+        margin-top: 5px;
+    }
+    /* 0.4 Texto de Las Entradas */
+    /* Titulo */
+    .sbox .sdata h1,
+    .sheader .data h1 {
+        font-size: 20px;
+    }
+    /* Descripcion */
+    .extra span.tagline {
+        font-size: 12px;
+    }
+    /* Fecha */
+    .extra span {
+        font-size: 10px;
+        line-height: 16px;
+    }
+    /* 0.5 Padding de Sinopsis */
+    #single .content .sbox {
+        padding: 25px 10px;
+    }
+    /* 0.6 Padding Comentarios */
+    .comments-area {
+        padding: 10px;
+    }
+}
+
+
+/*++++++++++++++++++++++++++++++++++*/
+
+
+/* MOVIL */
+
+
+/*++++++++++++++++++++++++++++++++++*/
